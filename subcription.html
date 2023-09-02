@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card3{
+        box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+position: absolute;
+width: 342px;
+height: 428px;
+left: 415px;
+top: 352px;
+
+background: #FFFFFF;
+border: 1px solid rgba(136, 136, 136, 0.2);
+/* shadow3 */
+
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+    }
+    .card2{
+        box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+position: absolute;
+width: 342px;
+height: 430px;
+left: 789px;
+top: 352px;
+
+background: #65256E;
+border: 1px solid rgba(136, 136, 136, 0.2);
+/* shadow3 */
+
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+    }
+    .card1 {
+        box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+position: absolute;
+width: 342px;
+height: 428px;
+left: 1163px;
+top: 352px;
+
+background: #FFFFFF;
+border: 1px solid rgba(136, 136, 136, 0.2);
+/* shadow3 */
+
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+    }
+    h1{
+        position: absolute;
+        width: 528px;
+        height: 68px;
+        left: 696px;
+        top: 176px;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 68px;
+/* identical to box height */
+
+
+        color: #65256E;
+    }
+    
+    h2 {
+      color: purple;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    h3{
+        position: absolute;
+    width: 611px;
+    height: 36px;
+    left: 697px;
+    top: 268px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+/* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #575757;
+    }
+    p{
+        color: white;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    .price1{
+        font-size: 40px;
+      color: white;
+      margin-bottom: 20px;
+
+    }
+    
+    .price {
+      font-size: 40px;
+      color: purple;
+      margin-bottom: 20px;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    .btn {
+      background-color: white;
+      color: purple;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      width: 85px;
+height: 23px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+      transition: background-color 0.3s;
+    }
+    
+    .btn:hover {
+        box-sizing: border-box;
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13px 24px;
+gap: 10px;
+
+width: 294px;
+height: 49px;
+margin-bottom: 10px;
+
+background: #FFFFFF;
+border: 1px solid #65256E;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+  </style>
+</head>
+<body>
+    <h1>Choose a Plan to Start</h1>
+    <h3>Choose your desirable plan and get access to the prime plan</h3>
+  <div class="container">
+     <div class="card2">
+      <p>Pro</p>
+      <div class="price1">Rs.999/year</div>
+      <ul>
+        <li>Access to all features</li>
+        <li>Priority support</li>
+      </ul>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+    
+    <div class="card1">
+      <h2>Premium</h2>
+      <div class="price">Rs.2400/year
+      </div>
+      <ul>
+        <li>Access to all features</li>
+        <li>Dedicated support</li>
+      </ul>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+    <div class="card3">
+        <h2>Basic</h2>
+        <div class="price">Rs.99/month</div>
+        <ul>
+          <li>Access to basic features</li>
+          <li>Limited support</li>
+        </ul>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+  </div>
+</body>
+</html>

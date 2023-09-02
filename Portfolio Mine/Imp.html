@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Typing Effect</title>
+	<style >
+	body {
+		background-color: lightcoral;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		display: flex;
+	}
+
+	h1 {
+		font-size: 90px;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: typewriter 2s steps(13) infinite alternate,
+		blink 800ms steps(13) infinite normal;
+		border-right: 5px solid black;
+	}
+	@keyframes typewriter {
+		from {
+		width: 0%;
+		}
+		to {
+		width: 50%;
+		}
+	}
+	@keyframes blink {
+		from {
+		border-color: black;
+		}
+		to {
+		border-color: transparent;
+		}
+	}
+	</style>
+</head>
+<body>
+	<h1>You only live once.</h1>
+</body>
+</html>
+
